@@ -12,7 +12,7 @@ findmydeviced, fmflocatord, fmfd are the daemons used by Find My
 by unloading the above dameons we can stop location updates systemwide without tripping an app's location service permissions(saying your location is off/offline/or that the app doesnt have location entitlements)
 
 **steps**
-- you need a jailbreak or a bootstra
+- you need a jailbreak or a bootstrap
 - install [NewTerm 3](https://chariz.com/get/newterm-beta) inside your package manager of choice
 - run su and type in your root password 
 - run "load" in NewTerm to re-load the location dameons
@@ -20,5 +20,6 @@ by unloading the above dameons we can stop location updates systemwide without t
 
   **If the executable won't run in NewTerm run chmod a+x (un)load**
 
+  * Bypassing Life360 requires marking it as non-executable first, a tutorial on how to do this is included
 _there is a bootloop risk since we r fucking around w launchdamemons_
 
