@@ -1,0 +1,12 @@
+Install Filza(if you do not have it)
+Open filza and go to the directory /var/containers/Bundle/Application
+Scroll down till you find Life360 folder(it should have a bunch of random letters and numbers but the app name will be in blue)
+Open the folder, then open the Life360.app in the folder
+Copy the Life360 executable(The executable is named "Life360")
+Open NewTerm
+
+run sudo chmod a-x LIFE360 (Replace LIFE360 with the path to the binary).
+You can now use the main tool
+
+After you are done with the main tool, and you need to restore location services, repeat steps 1-6 but follow this step instead of step 7:
+run sudo chmod a+x LIFE360 (Replace LIFE360 with the path to the binary)
