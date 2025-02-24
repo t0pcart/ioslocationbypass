@@ -21,5 +21,6 @@ by unloading the above dameons we can stop location updates systemwide without t
   **If the executable won't run in NewTerm run chmod a+x (un)load**
 
   * Bypassing Life360 requires marking it as non-executable first, a tutorial on how to do this is included
+    
 _there is a bootloop risk since we r fucking around w launchdamemons_
 
