@@ -1,0 +1,7 @@
+launchctl unload System/Library/LaunchDaemons/com.apple.icloud.findmydeviced.plist
+launchctl unload /System/Library/LaunchDaemons/com.apple.locationd.plist
+launchctl unload /System/Library/LaunchDaemons/com.apple.icloud.fmflocatord.plist
+launchctl unload /System/Library/LaunchDaemons/com.apple.icloud.fmfd.plist
+launchctl unload /System/Library/LaunchDaemons/com.apple.locationpushd.plist
+
+
