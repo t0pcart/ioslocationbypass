@@ -2,6 +2,7 @@
 stops background location updating on iOS devices without tripping the app
 
 there is no support and will be no updates will this as im done with location bypasses
+
 **how this shit works**
 
 locationd/locationpushd is the daemon that sends location updates to apps in the background
@@ -16,6 +17,8 @@ by unloading the above dameons we can stop location updates systemwide without t
 - run su and type in your root password 
 - run "load" in NewTerm to re-load the location dameons
 - run "unload" in NewTerm to unload- the location dameons
+
+  **If the executable won't run in NewTerm run chmod a+x (un)load**
 
 _there is a bootloop risk since we r fucking around w launchdamemons_
 
