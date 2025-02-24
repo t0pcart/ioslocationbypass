@@ -1,5 +1,8 @@
 # ioslocationbypass
+
 stops background location updating on iOS devices without tripping the app
+
+works on all apps/system services(Find My, Life360, Snapchat, etc)
 
 there is no support and will be no updates will this as im done with location bypasses
 
