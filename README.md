@@ -22,4 +22,4 @@ by unloading the above dameons we can stop location updates systemwide without t
 
   Bypassing Life360 requires marking it as non-executable first, a tutorial on how to do this is included
 
-  This tool only unlaods the dameon and does not disable it, after a reboot the background location services will be restored
+  This tool only unloads the dameon and does not disable it, after a reboot background location services will be restored
